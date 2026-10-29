@@ -1,0 +1,77 @@
+
+body {
+font-family: Arial, sans-serif;
+background-color: #fdf6f0;
+margin: 0;
+padding: 20px;
+}
+
+.container {
+max-width: 1000px;
+margin: 20px auto;
+background-color: white;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+text-align: center;
+color: #8b4513;
+}
+
+p {
+text-align: center;
+color: #777;
+}
+
+h2 {
+color: #8b4513;
+margin-top: 25px;
+}
+
+input {
+padding: 10px;
+margin: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+padding: 10px 16px;
+background-color: #d88c5c;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #b86e42;
+}
+
+a {
+margin-left: 10px;
+color: #8b4513;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 12px;
+text-align: center;
+}
+
+th {
+background-color: #d88c5c;
+color: white;
+}
+
+tr:nth-child(even) {
+background-color: #fff5ec;
+}
